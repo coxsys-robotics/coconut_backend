@@ -1,0 +1,7 @@
+image: fortuna_1st_floor.pgm
+resolution: 0.050000
+origin: [-17.885301, -30.869626, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+

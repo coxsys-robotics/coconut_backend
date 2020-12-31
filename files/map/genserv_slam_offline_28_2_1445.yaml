@@ -1,0 +1,7 @@
+image: /home/coxsys/genserv_28_2_1445.bag.pgm
+resolution: 0.050000
+origin: [-28.360818, -24.358443, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+

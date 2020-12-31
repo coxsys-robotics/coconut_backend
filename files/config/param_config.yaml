@@ -1,0 +1,9 @@
+limit_linear_acc: /config/limit_lin_acc
+limit_angular_acc: /config/limit_ang_acc
+limit_linear_vel: /config/limit_lin_vel
+limit_angular_vel: /config/limit_ang_vel
+
+auto_max_omega: /move_base/TebLocalPlannerROS/max_vel_theta
+auto_max_vel_x: /move_base/TebLocalPlannerROS/max_vel_x
+auto_max_vel_x_backwards: /move_base/TebLocalPlannerROS/max_vel_x_backwards
+auto_max_vel_y: /move_base/TebLocalPlannerROS/max_vel_y

@@ -1,0 +1,8 @@
+mode: tf
+
+### use topic name if mode==odom
+odom_topic: odom
+
+### use frame name if mode==tf
+map_frame: /map
+robot_frame: /base_footprint

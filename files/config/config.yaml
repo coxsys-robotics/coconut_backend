@@ -1,0 +1,39 @@
+ip: 10.42.0.1
+socket_port: 5555
+restful_port: 5556
+
+default_host: localhost
+
+map_folder: /coconut_ws/src/coconut_uvc_bringup/map
+#map_name: samyan_mitrtown_20th_floor_nav
+map_file_format: png
+
+deli_text: "/catkin_ws/src/DELIVERY/coconut_deli_navigation/text/test.txt"
+uvc_text: "/catkin_ws/src/UVC/coconut_uvc_navigation/text/test.txt"
+
+### socket ros topic ###
+cmd_topic: tab_vel
+position_topic: pose_from_robot
+goal_topic: /move_base_simple/goal
+move_base_status: /move_base/status
+
+### restful ros ropic ###
+viapoint_topic: /path_memorizer/update_full
+
+### room data save directory ###
+room_save_directory: saved_rooms
+
+### vertice data save directory ###
+vertice_save_directory: saved_vertices
+
+### edge data save directory ###
+edge_save_directory: saved_edges
+
+### zone data save directory ###
+zone_save_directory: saved_zones
+
+### delivery command's rosparam name ###
+delivery_param: rooms_to_deliver
+
+### report directory ###
+report_directory: catkin_ws/src/UVC/coconut_uvc_robot/report
