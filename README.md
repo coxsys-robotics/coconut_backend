@@ -1,8 +1,5 @@
 # Coconut backend #
 
-## file structure still bad 
-## connection still not secure
-
 Use python flask framework
 
 flask-restful for tasks which don't need to communicate continuously with server.
